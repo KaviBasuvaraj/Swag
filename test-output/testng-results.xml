@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22841" started-at="2023-05-03T01:14:58Z" finished-at="2023-05-03T01:15:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22841" started-at="2023-05-03T01:14:58Z" finished-at="2023-05-03T01:15:21Z">
+      <class name="org.run.Cart_CheckOut">
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:org.run.Cart_CheckOut@20398b7c]" name="launchURL" is-config="true" duration-ms="205" started-at="2023-05-03T01:15:20Z" finished-at="2023-05-03T01:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.run.Cart_CheckOut@20398b7c]" name="Login" duration-ms="313" started-at="2023-05-03T01:15:20Z" finished-at="2023-05-03T01:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="cart()[pri:0, instance:org.run.Cart_CheckOut@20398b7c]" name="cart" duration-ms="350" started-at="2023-05-03T01:15:20Z" finished-at="2023-05-03T01:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+      </class> <!-- org.run.Cart_CheckOut -->
+      <class name="org.run.Login">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.run.Login@2ac273d3]" name="launchBrowser" is-config="true" duration-ms="2623" started-at="2023-05-03T01:14:58Z" finished-at="2023-05-03T01:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:org.run.Login@2ac273d3]" name="launchURL" duration-ms="1157" started-at="2023-05-03T01:15:01Z" finished-at="2023-05-03T01:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="login_with_valid_date()[pri:0, instance:org.run.Login@2ac273d3]" name="login_with_valid_date" duration-ms="5901" started-at="2023-05-03T01:15:02Z" finished-at="2023-05-03T01:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_date -->
+        <test-method status="PASS" signature="login_with_valid_date1()[pri:0, instance:org.run.Login@2ac273d3]" name="login_with_valid_date1" duration-ms="510" started-at="2023-05-03T01:15:08Z" finished-at="2023-05-03T01:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_date1 -->
+        <test-method status="PASS" signature="login_with_valid_date2()[pri:0, instance:org.run.Login@2ac273d3]" name="login_with_valid_date2" duration-ms="425" started-at="2023-05-03T01:15:08Z" finished-at="2023-05-03T01:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_date2 -->
+        <test-method status="PASS" signature="login_with_valid_date3()[pri:0, instance:org.run.Login@2ac273d3]" name="login_with_valid_date3" duration-ms="433" started-at="2023-05-03T01:15:09Z" finished-at="2023-05-03T01:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_date3 -->
+      </class> <!-- org.run.Login -->
+      <class name="org.run.Inventry_List_Page">
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:org.run.Inventry_List_Page@71423665]" name="launchURL" is-config="true" duration-ms="96" started-at="2023-05-03T01:15:09Z" finished-at="2023-05-03T01:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.run.Inventry_List_Page@71423665]" name="Login" duration-ms="304" started-at="2023-05-03T01:15:09Z" finished-at="2023-05-03T01:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:org.run.Inventry_List_Page@71423665]" name="addToCart" duration-ms="1095" started-at="2023-05-03T01:15:09Z" finished-at="2023-05-03T01:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="visibility_Check()[pri:0, instance:org.run.Inventry_List_Page@71423665]" name="visibility_Check" duration-ms="9285" started-at="2023-05-03T01:15:11Z" finished-at="2023-05-03T01:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibility_Check -->
+        <test-method status="PASS" signature="remove_Product()[pri:1, instance:org.run.Inventry_List_Page@71423665]" name="remove_Product" duration-ms="90" started-at="2023-05-03T01:15:21Z" finished-at="2023-05-03T01:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_Product -->
+        <test-method status="PASS" signature="Card_count()[pri:2, instance:org.run.Inventry_List_Page@71423665]" name="Card_count" duration-ms="21" started-at="2023-05-03T01:15:21Z" finished-at="2023-05-03T01:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Card_count -->
+      </class> <!-- org.run.Inventry_List_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
